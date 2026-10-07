@@ -1,5 +1,9 @@
 # ENTSO-E Application Profiles Library
 
+v1.1.0 ICTC approved on 11 September 2025
+
+v1.1.1 patch release (bug solving) approved in CIM WG on 7 October 2025
+
 # Overview
 This library contains all applications profiles for Common Grid Model Exchange Standard/Specification (CMGES) and Network Code Profiles (NCP) organised in a folder structure. The application profiles consist of vocabulary schemas (RDFS) and constraints (SHACL) derived from the information model in UML available on the [ENTSO-E CGMES Library](https://www.entsoe.eu/data/cim/cim-for-grid-models-exchange/#_ENTSO_E_CGMES_Extension_and_Profile).
 
@@ -63,9 +67,9 @@ All current releases of CGMES ([v3.0](https://github.com/entsoe/application-prof
 
 For context, CGMES v3.0 profiles have the metadata under owl:Onthology. On the other hand, CGMES v2.4 profiles have the metadata under entsoe:<profile>Version.
 
-A maintenance request detected that [File Header RDFS of CGMES v3.0](https://github.com/entsoe/application-profiles-library/blob/main/CGMES/RDFS/61970-600-2_Header-AP-Voc-RDFS2019.rdf) was missing the metadata. This originated a the addition of a [new File Header RDFS](https://github.com/entsoe/application-profiles-library/blob/main/CGMES/RDFS/61970-600-2_Header-AP-Voc-RDFS2020.rdf) that features a new Ontology file header added to the schema (RDFS).
+A maintenance request detected that [File Header RDFS of CGMES v3.0](https://github.com/entsoe/application-profiles-library/blob/main/CGMES/CurrentRelease/RDFS/61970-600-2_Header-AP-Voc-RDFS2019.rdf) was missing the metadata. This originated a the addition of a [new File Header RDFS](https://github.com/entsoe/application-profiles-library/blob/main/CGMES/CurrentRelease/RDFS/61970-600-2_Header-AP-Voc-RDFS2020.rdf) that features a new Ontology file header added to the schema (RDFS).
 
-It is recommended to use the [new File Header RDFS](https://github.com/entsoe/application-profiles-library/blob/main/CGMES/RDFS/61970-600-2_Header-AP-Voc-RDFS2020.rdf) instead of the [old](https://github.com/entsoe/application-profiles-library/blob/main/CGMES/RDFS/61970-600-2_Header-AP-Voc-RDFS2019.rdf).
+It is recommended to use the [new File Header RDFS](https://github.com/entsoe/application-profiles-library/blob/main/CGMES/CurrentRelease/RDFS/61970-600-2_Header-AP-Voc-RDFS2020.rdf) instead of the [old](https://github.com/entsoe/application-profiles-library/blob/main/CGMES/CurrentRelease/RDFS/61970-600-2_Header-AP-Voc-RDFS2019.rdf).
 
 
 # RDF schemas (RDFS)
@@ -238,3 +242,4 @@ The master spreadsheet contains information on all constraints, their source and
 * Column R indicates the status on SHACL. Here it is indicated which constraints are done in the SHACL shapes package. There is indication in case the constraint cannot be validated/represented in machine readable way, or it is not needed, and the reason is given in the comment’s column.  
 * Column S indicates the file name of the .ttl file where the constraint is defined.
 * Column T indicates the date of the last modification of the code.
+
