@@ -382,7 +382,7 @@ Object relationships in exchanged models shall reference objects using Identifie
     <rdfs:comment>URI reference identifying the designation authority.
 Note: The URI may refer to an organisation identifier, registry entry, or other authoritative source describing the authority.
 Example: "https://www.gs1.org", "https://www.entsoe.eu/data/energy-identification-codes-eic/"</rdfs:comment>
-    <cims:dataType rdf:resource="https://cim.ucaiug.io/ns/eu#URI"/>
+    <cims:dataType rdf:resource="https://cim.ucaiug.io/ns/prof-cim#IRI"/>
     <rdfs:domain rdf:resource="https://cim4.eu/ns/nc#DesignationAuthority"/>
     <rdfs:label xml:lang="en">authorityRef</rdfs:label>
     <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
@@ -405,7 +405,7 @@ Note: Provides additional information about the role, scope, or responsibilities
     <rdfs:comment>URI reference to a service or endpoint that can be used to resolve, validate, or obtain additional information about designations issued by this authority.
 Note: The lookup service may provide information about designation values, identifier registries, or related metadata.
 Example: "https://id.gs1.org/"</rdfs:comment>
-    <cims:dataType rdf:resource="https://cim.ucaiug.io/ns/eu#URI"/>
+    <cims:dataType rdf:resource="https://cim.ucaiug.io/ns/prof-cim#IRI"/>
     <rdfs:domain rdf:resource="https://cim4.eu/ns/nc#DesignationAuthority"/>
     <rdfs:label xml:lang="en">lookupServiceRef</rdfs:label>
     <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
@@ -505,7 +505,7 @@ Example: "DiagramLabel", "AssetIdentifier", "SCADAName"</rdfs:comment>
     <rdfs:comment>URI reference to an external definition or specification describing the designation type.
 Note: The referenced resource may provide additional documentation, constraints, or governance information for the designation type.
 Example: https://energy.referencedata.eu/DesignationType/DiagramLabel</rdfs:comment>
-    <cims:dataType rdf:resource="https://cim.ucaiug.io/ns/eu#URI"/>
+    <cims:dataType rdf:resource="https://cim.ucaiug.io/ns/prof-cim#IRI"/>
     <rdfs:domain rdf:resource="https://cim4.eu/ns/nc#DesignationType"/>
     <rdfs:label xml:lang="en">typeRef</rdfs:label>
     <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
@@ -539,7 +539,7 @@ Example: https://energy.referencedata.eu/DesignationType/DiagramLabel</rdfs:comm
 Note: The identifier is used to support lifecycle management, cross-system referencing, and comparison of objects across model exchanges and business processes. The identifier is expressed as a URI to allow compatibility with different identifier schemes.
 Profiles commonly restrict the identifier to a UUID to ensure global uniqueness and stable identity across distributed systems.
 Example: "urn:uuid:550e8400-e29b-41d4-a716-446655440000"</rdfs:comment>
-    <cims:dataType rdf:resource="https://cim.ucaiug.io/ns/eu#URI"/>
+    <cims:dataType rdf:resource="https://cim.ucaiug.io/ns/prof-cim#IRI"/>
     <rdfs:domain rdf:resource="https://cim4.eu/ns/nc#Identity"/>
     <rdfs:label xml:lang="en">identifier</rdfs:label>
     <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1"/>

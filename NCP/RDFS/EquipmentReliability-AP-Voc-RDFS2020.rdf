@@ -5111,7 +5111,7 @@ Note: The reference may be a web URL identifying the designator or another persi
 The designator typically represents a jurisdictional or organisational designation that has empowered the party with the authority to provide the normative power system reference model.
 This may refer to a country or to a specific regulatory or governing organisation.
 Example: "https://vocabulary.uncefact.org/unlocode-countries#NO", "https://www.nve.no/reguleringsmyndigheten/"</rdfs:comment>
-    <cims:dataType rdf:resource="https://cim.ucaiug.io/ns/eu#URI"/>
+    <cims:dataType rdf:resource="https://cim.ucaiug.io/ns/prof-cim#IRI"/>
     <rdfs:domain rdf:resource="https://cim4.eu/ns/nc#BoundaryPointBorder"/>
     <rdfs:label xml:lang="en">partyOneDesignatorRef</rdfs:label>
     <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1"/>
@@ -5136,7 +5136,7 @@ Example: "Statnett"</rdfs:comment>
     <rdfs:comment>Globally unique reference to the first party participating in the border relationship, expressed as a URI.
 Note: The reference may be a web URL identifying the party or another persistent identifier expressed in URI form. When resolvable, the URI may provide additional linked data describing the party.
 Example: "https://energy.referencedata.eu/party/statnett", "urn:uuid:6f3e3a4e-3d4e-4b1a-a1e4-2b2c3f1a9a8d", "https://virksomhet.brreg.no/nb/oppslag/enheter/962986633"</rdfs:comment>
-    <cims:dataType rdf:resource="https://cim.ucaiug.io/ns/eu#URI"/>
+    <cims:dataType rdf:resource="https://cim.ucaiug.io/ns/prof-cim#IRI"/>
     <rdfs:domain rdf:resource="https://cim4.eu/ns/nc#BoundaryPointBorder"/>
     <rdfs:label xml:lang="en">partyOneRef</rdfs:label>
     <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1"/>
@@ -5150,7 +5150,7 @@ Note: The reference may be a web URL identifying the designator or another persi
 The designator typically represents a jurisdictional or organisational designation that has empowered the party with the authority to provide the normative power system reference model.
 This may refer to a country or to a specific regulatory or governing organisation.
 Example: "https://vocabulary.uncefact.org/unlocode-countries#SE", "https://ei.se/"</rdfs:comment>
-    <cims:dataType rdf:resource="https://cim.ucaiug.io/ns/eu#URI"/>
+    <cims:dataType rdf:resource="https://cim.ucaiug.io/ns/prof-cim#IRI"/>
     <rdfs:domain rdf:resource="https://cim4.eu/ns/nc#BoundaryPointBorder"/>
     <rdfs:label xml:lang="en">partyTwoDesignatorRef</rdfs:label>
     <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1"/>
@@ -5175,7 +5175,7 @@ Example: "SvenskaKraftnet"</rdfs:comment>
     <rdfs:comment>Globally unique reference to the second party participating in the border relationship, expressed as a URI.
 Note: The reference may be a web URL identifying the party or another persistent identifier expressed in URI form. When resolvable, the URI may provide additional linked data describing the party.
 Example: "https://energy.referencedata.eu/party/svk", "urn:uuid:0d4c7c30-cc7e-4f8f-bb6c-6d6b8c6f7f62", "https://www.allabolag.se/foretag/svenska-kraftn%C3%A4t/sundbyberg/energif%C3%B6rs%C3%B6rjning/XF94VWI5YE1K"</rdfs:comment>
-    <cims:dataType rdf:resource="https://cim.ucaiug.io/ns/eu#URI"/>
+    <cims:dataType rdf:resource="https://cim.ucaiug.io/ns/prof-cim#IRI"/>
     <rdfs:domain rdf:resource="https://cim4.eu/ns/nc#BoundaryPointBorder"/>
     <rdfs:label xml:lang="en">partyTwoRef</rdfs:label>
     <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1..1"/>
@@ -5872,7 +5872,7 @@ Example: "Trewartha Climate Classification", "Holdridge Life Zones", "Thornthwai
     <rdfs:comment>A URI identifying the ClimateZone within the applicable climate classification scheme.
 Note: The URI identifies the classified zone or concept rather than the classification scheme itself. It may be used as an alternative to code when the classification is published as linked data or another URI-based controlled vocabulary. Both code and ref may be provided when the classification defines both representations.
 Example: "https://example.org/climate/pecd/zone-12" as an illustrative URI identifying a climate zone within a PECD classification.</rdfs:comment>
-    <cims:dataType rdf:resource="https://cim.ucaiug.io/ns/eu#URI"/>
+    <cims:dataType rdf:resource="https://cim.ucaiug.io/ns/prof-cim#IRI"/>
     <rdfs:domain rdf:resource="https://cim4.eu/ns/nc#ClimateZone"/>
     <rdfs:label xml:lang="en">ref</rdfs:label>
     <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
@@ -7433,7 +7433,7 @@ Note: The value provides the default weighting for top-down capacity allocation 
   </rdf:Description>
   <rdf:Description rdf:about="https://cim4.eu/ns/nc#EnergyResourceGroupCapacity.scenarioCode">
     <rdfs:comment>Code identifying the study, scenario, or modelling configuration from which the capacity or availability values are derived. Examples include TYNDP scenario identifiers, national estimates, or dataset versions.</rdfs:comment>
-    <cims:dataType rdf:resource="https://cim.ucaiug.io/ns/eu#URI"/>
+    <cims:dataType rdf:resource="https://cim.ucaiug.io/ns/prof-cim#IRI"/>
     <rdfs:domain rdf:resource="https://cim4.eu/ns/nc#EnergyResourceGroupCapacity"/>
     <rdfs:label xml:lang="en">scenarioCode</rdfs:label>
     <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
@@ -7443,7 +7443,7 @@ Note: The value provides the default weighting for top-down capacity allocation 
   </rdf:Description>
   <rdf:Description rdf:about="https://cim4.eu/ns/nc#EnergyResourceGroupCapacity.scenarioRef">
     <rdfs:comment>Reference to the study, scenario, or modelling configuration from which the capacity or availability values are derived. Examples include TYNDP scenario identifiers, national estimates, or dataset versions.</rdfs:comment>
-    <cims:dataType rdf:resource="https://cim.ucaiug.io/ns/eu#URI"/>
+    <cims:dataType rdf:resource="https://cim.ucaiug.io/ns/prof-cim#IRI"/>
     <rdfs:domain rdf:resource="https://cim4.eu/ns/nc#EnergyResourceGroupCapacity"/>
     <rdfs:label xml:lang="en">scenarioRef</rdfs:label>
     <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
@@ -7453,7 +7453,7 @@ Note: The value provides the default weighting for top-down capacity allocation 
   </rdf:Description>
   <rdf:Description rdf:about="https://cim4.eu/ns/nc#EnergyResourceGroupCapacity.weatherDatasetCode">
     <rdfs:comment>Code identifying the external weather or climate dataset used to determine availability or effective capacity for weather-dependent resources. Examples include datasets from the Pan-European Climate Database (PECD) or similar climate data services.</rdfs:comment>
-    <cims:dataType rdf:resource="https://cim.ucaiug.io/ns/eu#URI"/>
+    <cims:dataType rdf:resource="https://cim.ucaiug.io/ns/prof-cim#IRI"/>
     <rdfs:domain rdf:resource="https://cim4.eu/ns/nc#EnergyResourceGroupCapacity"/>
     <rdfs:label xml:lang="en">weatherDatasetCode</rdfs:label>
     <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
@@ -7463,7 +7463,7 @@ Note: The value provides the default weighting for top-down capacity allocation 
   </rdf:Description>
   <rdf:Description rdf:about="https://cim4.eu/ns/nc#EnergyResourceGroupCapacity.weatherDatasetRef">
     <rdfs:comment>Reference to the external weather or climate dataset used to determine availability or effective capacity for weather-dependent resources. Examples include datasets from the Pan-European Climate Database (PECD) or similar climate data services.</rdfs:comment>
-    <cims:dataType rdf:resource="https://cim.ucaiug.io/ns/eu#URI"/>
+    <cims:dataType rdf:resource="https://cim.ucaiug.io/ns/prof-cim#IRI"/>
     <rdfs:domain rdf:resource="https://cim4.eu/ns/nc#EnergyResourceGroupCapacity"/>
     <rdfs:label xml:lang="en">weatherDatasetRef</rdfs:label>
     <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
@@ -7532,7 +7532,7 @@ Example: F01010300 identifies Renewable–Solid–Wood–Unspecified in the Euro
     <rdfs:comment>URI or URN identifying the same primary energy source classification as energySourceCode.
 Note:URI or URN identifying the same primary energy source as energySourceCode. The URI may be resolvable (HTTP) or non-resolvable (URN). CIM does not mandate any identification scheme.
 Example: https://www.aib-net.org/eecs/F01010300 to point to Renewable–Solid–Wood–Unspecified.</rdfs:comment>
-    <cims:dataType rdf:resource="https://cim.ucaiug.io/ns/eu#URI"/>
+    <cims:dataType rdf:resource="https://cim.ucaiug.io/ns/prof-cim#IRI"/>
     <rdfs:domain rdf:resource="https://cim4.eu/ns/nc#EnergyResourceType"/>
     <rdfs:label xml:lang="en">energySourceRef</rdfs:label>
     <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
@@ -7567,7 +7567,7 @@ Example: T010102 identifies Solar–Photovoltaic–Thin Film in the European Ene
     <rdfs:comment>URI or URN identifying the same technology classification as technologyCode.
 Note: URI or URN identifying the same technology as technologyCode. The URI may be resolvable (HTTP) or non-resolvable (URN). CIM does not mandate any identification scheme.
 Example: https://www.aib-net.org/eecs/T010102 to point to Solar–Photovoltaic–Thin Film.</rdfs:comment>
-    <cims:dataType rdf:resource="https://cim.ucaiug.io/ns/eu#URI"/>
+    <cims:dataType rdf:resource="https://cim.ucaiug.io/ns/prof-cim#IRI"/>
     <rdfs:domain rdf:resource="https://cim4.eu/ns/nc#EnergyResourceType"/>
     <rdfs:label xml:lang="en">technologyRef</rdfs:label>
     <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
