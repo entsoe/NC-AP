@@ -13318,12 +13318,12 @@ er:StaticVarCompensator-AllowedProperties
         sh:property           [ sh:path  cim:IdentifiedObject.description ];
         sh:property           [ sh:path  cim:IdentifiedObject.name ];
         sh:severity           sh:Info;
-        sh:targetClass        cim16:StaticVarCompensator , nc:StaticVarCompensator , cim17:StaticVarCompensator .
+        sh:targetClass        nc:StaticVarCompensator  .
 
 er:StaticVarCompensator
         rdf:type        sh:NodeShape;
         sh:property     ido:IdentifiedObject.mRID-datatype , ido:IdentifiedObject.mRID-cardinality , er:EnergyConnection.Installation-cardinality , er:RegulatingCondEq.EquipmentController-cardinality , er:FACTSEquipment.ratedL-datatype , er:FACTSEquipment.ratedL-cardinality , er:FACTSEquipment.maxC-datatype , er:FACTSEquipment.maxC-cardinality , er:FACTSEquipment.minC-datatype , er:FACTSEquipment.minC-cardinality , er:FACTSEquipment.ratedI-datatype , er:FACTSEquipment.ratedI-cardinality , er:FACTSEquipment.ratedC-datatype , er:FACTSEquipment.ratedC-cardinality , er:FACTSEquipment.minL-datatype , er:FACTSEquipment.minL-cardinality , er:FACTSEquipment.maxL-datatype , er:FACTSEquipment.maxL-cardinality , er:Equipment.AggregatedEquipment-cardinality , er:Equipment.Circuit-cardinality , ido:IdentifiedObject.energyIdentCodeEic-cardinality , ido:IdentifiedObject.energyIdentCodeEic-datatype , ido:IdentifiedObject.description-cardinality , ido:IdentifiedObject.description-datatype , ido:IdentifiedObject.name-cardinality , ido:IdentifiedObject.name-datatype , er:FACTSEquipment.ratedU-cardinality , er:FACTSEquipment.ratedU-datatype , er:FACTSEquipment.slope-cardinality , er:FACTSEquipment.slope-datatype;
-        sh:targetClass  cim17:StaticVarCompensator , nc:StaticVarCompensator , cim16:StaticVarCompensator .
+        sh:targetClass  nc:StaticVarCompensator .
 
 er:LinearShuntCompensator-AllowedProperties
         rdf:type              sh:NodeShape;
