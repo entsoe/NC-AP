@@ -1075,7 +1075,7 @@ dm:conformsToNCProfileUsedSettings
         a                       sh:PropertyShape ;
         sh:description          "Holds if the dataset declares conformance to at least one NC application profile that mandates the used settings." ;
         sh:path                 dcterms:conformsTo ;
-        sh:qualifiedValueShape  [ sh:in ( <https://ap.cim4.eu/SecurityAnalysisResult/2.4> ) ] ;
+        sh:qualifiedValueShape  [ sh:in ( <https://ap.cim4.eu/SecurityAnalysisResult/2.5> ) ] ;
         sh:qualifiedMinCount    1 .
 
 dm:spatial-NC-cardinality
